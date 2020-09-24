@@ -77,21 +77,6 @@ $(window).scroll(function () {
     });
 });
 
-//var json = new XMLHttpRequest();
-//json.open('GET', 'basket.json', true);
-//json.send();
-//json.onreadystatechange = function () {
-//    if (json.readyState === 4 && json.status === 200) {
-//        console.log("state = 4");
-//
-//        var basketCard = JSON.parse(json.responseText);
-//
-//}
-//else {
-//    console.log("status is not 4");
-//}
-//}
-
 var amount = 0;
 $(".price span").text(+amount.toFixed(2));
 
@@ -311,3 +296,9 @@ $('#contact_content_form_type').on("click", function () {
         }
     });
 });
+
+$('.header_burger').on("click", function () {
+    $('.menu , .header_burger , .mobileMenu_area').toggleClass('active');
+    $('body').toggleClass('menu_active');
+    $('body').css('position', 'relative');
+})
