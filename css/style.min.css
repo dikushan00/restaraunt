@@ -1356,6 +1356,10 @@ a:active {
 
 @media (max-width: 576px) {
 
+    .home_title {
+        font-size: 39px;
+    }
+
     .header_container {
         justify-content: space-between;
     }
@@ -1375,5 +1379,19 @@ a:active {
 
     .header_burger {
         display: block;
+    }
+
+    .home_btn_area {
+        width: 280px;
+    }
+
+    .home_btn {
+        width: 130px;
+        font-size: 14px;
+    }
+
+    .ingridients_content_el img {
+        height: 85px;
+        width: 85px;
     }
 }
