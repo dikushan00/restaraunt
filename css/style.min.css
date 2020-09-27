@@ -1201,9 +1201,7 @@ a:active {
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    top: 50%;
     left: 32%;
-    margin-top: -238px;
     align-items: center;
 }
 
