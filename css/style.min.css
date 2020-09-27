@@ -1336,12 +1336,14 @@ a:active {
     }
 
     .ingridients_content {
-        left: 77px !important;
+        left: auto !important;
+        right: auto !important;
         padding: 50px 15px;
     }
 
     .ingridients_content_area {
-        left: 77px !important;
+        left: auto !important;
+        right: auto !important;
         padding: 50px 15px;
     }
 
@@ -1351,6 +1353,16 @@ a:active {
     
     .review_content_area {
         height: 680px;
+    }
+
+    .rmenu_content_item {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    .ingridients_container {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -1393,5 +1405,37 @@ a:active {
     .ingridients_content_el img {
         height: 85px;
         width: 85px;
+    }
+
+    .ingridients_content {
+        width: 100%;
+    }
+
+    .ingridients_content_area {
+        width: 100%;
+    }
+
+    .review_content {
+        width: 100%;
+    }
+    .review_content_area {
+        width: 100%;
+    }
+
+    .contact_content_form_inputArea {
+        justify-content: center;
+    }
+
+    .ingridients_content_title {
+        font-size: 32px;
+    }
+
+    .review_content_desc,
+    .ingridients_content_desc {
+        font-size: 16px;
+    }
+
+    .about_content_cook {
+        margin-top: 115px;
     }
 }
