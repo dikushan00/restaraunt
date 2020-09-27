@@ -1,10 +1,6 @@
 'use strict'
 
-$('.main_btn').on("click", function (e) {
-    e.preventDefault();
-});
-
-$('a').on("click", function (e) {
+$('.main_btn, a').on("click", function (e) {
     e.preventDefault();
 });
 
