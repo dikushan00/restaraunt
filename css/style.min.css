@@ -1438,4 +1438,8 @@ a:active {
     .about_content_cook {
         margin-top: 115px;
     }
+
+    .desc {
+        width: 77%;
+    }
 }
