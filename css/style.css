@@ -129,7 +129,6 @@ a:active {
 
 .header .menu {
     width: 710px;
-    height: 21px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -139,8 +138,7 @@ a:active {
     -ms-flex-pack: justify;
     justify-content: space-between;
     list-style: none;
-    margin: 0;
-    margin-left: 110px;
+    margin: 0 0 0 110px;
     height: 120px;
     -webkit-box-align: end;
     -webkit-align-items: flex-end;
@@ -218,9 +216,7 @@ a:active {
 }
 
 .header_card {
-    position: absolute !important;
-    right: -10px;
-    top: 45px;
+    position: relative !important;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s
@@ -245,7 +241,7 @@ a:active {
     position: absolute;
     padding: 15px;
     top: 40px;
-    right: -53px;
+    right: -50px;
     background-color: #fff;
     -webkit-box-shadow: 0 0 2px 0 #ccc;
     box-shadow: 0 0 2px 0 #ccc;
@@ -267,7 +263,7 @@ a:active {
     transform: scaleY(.5774) rotate(-45deg);
     background-color: inherit;
     left: 199px;
-    top: -6px;
+    top: -5px;
     border-top: solid 1px #ccc;
     border-right: solid 1px #ccc
 }
@@ -384,14 +380,12 @@ a:active {
     text-shadow: 0 1px 2px rgba(1, 1, 1, .64);
     width: 959px;
     height: 204px;
-    margin: 0 auto;
-    margin-top: 240px
+    margin: 240px auto 0;
 }
 
 .home_dec {
     text-align: center;
-    margin: 0 auto;
-    margin-top: 55px
+    margin: 55px auto 0;
 }
 
 .home_btn {
@@ -421,9 +415,8 @@ a:active {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin: 0 auto;
     text-align: center;
-    margin-top: 32px
+    margin: 32px auto 0;
 }
 
 .home_btn:hover {
@@ -436,9 +429,8 @@ a:active {
 .about {
     height: 718px;
     padding: 25px;
-    background: url(../img/background.png) no-repeat;
+    background: url(../img/background.png) no-repeat top;
     background-size: cover;
-    background-position: top;
     overflow: hidden
 }
 
@@ -458,8 +450,7 @@ a:active {
     line-height: .82;
     text-align: center;
     height: 37px;
-    margin: 0 auto;
-    margin-top: 85px
+    margin: 85px auto 0;
 }
 
 .about_content_desc {
@@ -474,15 +465,13 @@ a:active {
 .about_content_decor {
     display: block;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 15px
+    margin: 15px auto 0;
 }
 
 .about_content_cook {
     display: block;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 50px
+    margin: 50px auto 0;
 }
 
 .about_content_dish {
@@ -492,9 +481,8 @@ a:active {
 }
 
 .ingridients {
-    background: url(../img/ingridients_Background.png) no-repeat;
+    background: url(../img/ingridients_Background.png) no-repeat top;
     background-size: cover;
-    background-position: top;
     height: 758px
 }
 
@@ -540,15 +528,13 @@ a:active {
     font-weight: 400;
     line-height: 24px;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 30px
+    margin: 30px auto 0;
 }
 
 .ingridients_content_decor {
     display: block;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 20px
+    margin: 20px auto 0;
 }
 
 .ingridients_content_el {
@@ -566,9 +552,8 @@ a:active {
 
 .rmenu {
     height: 1025px;
-    background: url(../img/rm_bg.png) no-repeat;
+    background: url(../img/rm_bg.png) no-repeat top;
     background-size: cover;
-    background-position: top;
     padding: 30px 0;
     position: relative
 }
@@ -723,8 +708,7 @@ a:active {
     color: #0c0c0c;
     font-family: Lato, sans-serif;
     float: left;
-    margin: 0;
-    margin-top: 11px
+    margin: 11px 0 0;
 }
 
 .rmenu_content_item_block .polosa {
@@ -755,9 +739,8 @@ a:active {
 .review {
     height: 760px;
     width: 100%;
-    background: url(../img/guestBG.png) no-repeat;
+    background: url(../img/guestBG.png) no-repeat top;
     background-size: cover;
-    background-position: top
 }
 
 .review_container {
@@ -804,8 +787,7 @@ a:active {
     line-height: 1.8;
     text-align: center;
     width: 622px;
-    margin: 0 auto;
-    margin-top: 30px
+    margin: 30px auto 0;
 }
 
 .review_content_decor {
@@ -820,8 +802,7 @@ a:active {
     font-weight: 700;
     line-height: 1.8;
     text-align: center;
-    margin: 0 auto;
-    margin-top: 40px
+    margin: 40px auto 0;
 }
 
 .review_content_kav {
@@ -832,10 +813,8 @@ a:active {
 
 .contact {
     height: auto;
-    padding: 25px;
-    background: url(../img/background.png) no-repeat;
+    background: url(../img/background.png) no-repeat top;
     background-size: cover;
-    background-position: top;
     padding: 100px 15px
 }
 
@@ -943,13 +922,12 @@ a:active {
     background-color: #dab33e;
     width: 223px;
     height: 44px;
-    margin: 0 auto;
     text-align: center;
     line-height: 44px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
-    margin-top: 32px;
+    margin: 32px auto 0;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
@@ -1007,8 +985,7 @@ a:active {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 50px
+    margin: 50px auto 0;
 }
 
 .footer_content_item_bankItem {
@@ -1048,8 +1025,7 @@ a:active {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    margin: 0 auto;
-    margin-top: 60px
+    margin: 60px auto 0;
 }
 
 .footer_content_soc_net a {
@@ -1197,11 +1173,12 @@ a:active {
 }
 
 .menu.active {
+    width: 100% !important;
     display: flex !important;
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
-    left: 32%;
+    left: 0;
     align-items: center;
 }
 
@@ -1239,7 +1216,6 @@ a:active {
     }
 
     .header_card {
-        position: initial !important;
         margin-left: 13px;
     }
 
@@ -1345,6 +1321,15 @@ a:active {
         display: flex;
         justify-content: center;
     }
+
+    .header_card .basket_drop {
+        right: 5px !important;
+    }
+
+    .header_card .basket_drop::before {
+        border: none !important;
+        top: 20px !important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1413,5 +1398,15 @@ a:active {
 
     .desc {
         width: 77%;
+    }
+
+    .header_card .basket_drop {
+        right: -50px !important;
+    }
+
+    .header_card .basket_drop::before {
+        border-top: 1px solid #ccc !important;
+        border-right: 1px solid #ccc !important;
+        top: -5px !important;
     }
 }
