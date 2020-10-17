@@ -1343,6 +1343,8 @@ a:active {
     }
 
     .header .menu {
+        top: 20%;
+        height: auto !important;
         display: none;
     }
 
